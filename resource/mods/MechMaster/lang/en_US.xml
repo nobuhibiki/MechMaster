@@ -1,0 +1,6 @@
+xml version=1.0 encoding=UTF-8
+!DOCTYPE properties SYSTEM httpjava.sun.comdtdproperties.dtd
+properties version=1.0
+	commentEnglish (en_US) Localization Filecomment
+	entry key=tile.TesseractMK1.nameTesseract MK1entry
+properties
