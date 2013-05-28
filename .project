@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>Mech Master</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>mechmod_common</name>
+			<type>2</type>
+			<locationURI>MECHMOD_SRC_LOCATION</locationURI>
+		</link>
+		<link>
+			<name>resource</name>
+			<type>2</type>
+			<locationURI>MECHMOD_RESOURCE</locationURI>
+		</link>
+	</linkedResources>
+	<variableList>
+		<variable>
+			<name>MECHMOD_RESOURCE</name>
+			<value>file:/D:/development/source/MechMaster/resource</value>
+		</variable>
+		<variable>
+			<name>MECHMOD_SRC_LOCATION</name>
+			<value>file:/D:/development/source/MechMaster/mechmaster_common</value>
+		</variable>
+	</variableList>
+</projectDescription>

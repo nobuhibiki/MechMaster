@@ -1,0 +1,20 @@
+[
+{
+  "modid": "MechMaster",
+  "name": "Mech Master",
+  "description": "Venture, Mine, Build using Mech",
+  "version": "0.0.1",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [
+    "SacredWKnight"
+  ],
+  "credits": "By SacredWKnight, Also Pahimar for Let's Mod",
+  "logoFile": "",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]
