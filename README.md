@@ -1,4 +1,4 @@
 MechMaster
 ==========
 
-Fight, Roam, Mine using the amazing Mech
+Fight, Roam, Mine using the amazing Mech.
