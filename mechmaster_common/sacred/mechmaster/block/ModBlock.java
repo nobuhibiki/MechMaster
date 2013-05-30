@@ -7,7 +7,7 @@ public class ModBlock {
     public static Block TesseractMK1;
     @SuppressWarnings("deprecation")
     public static void TesseractMK1(){
-        TesseractMK1 = new TesseractMK1(200);
+        TesseractMK1 = new TesseractMK1(3249);
         
         GameRegistry.registerBlock(TesseractMK1);
     }
