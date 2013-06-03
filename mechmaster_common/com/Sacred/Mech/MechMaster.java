@@ -28,9 +28,10 @@ public class MechMaster {
 
 	@PreInit
 	public void preInit(FMLPreInitializationEvent event){
-		ModBlocks.BlocksInit();
 		
-		LocalizationHandler.loadLanguages();
+		LocalizationHandler.loadLanguages(); // LocalizationHandler needs to run before ModBlocks
+		
+		ModBlocks.BlocksInit(); // Switched the LocilzationHandler and ModBlocks
 	}
 	
 	@Init
