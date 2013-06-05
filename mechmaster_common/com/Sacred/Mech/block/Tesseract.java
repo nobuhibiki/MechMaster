@@ -9,7 +9,13 @@ public class Tesseract extends BlockMM {
 	public Tesseract(int id) {
 		super(id, Material.rock);
 		this.setCreativeTab(CreativeTabs.tabBlock);
+<<<<<<< HEAD
 		this.setUnlocalizedName(Strings.TESSERACT_NAME);
 	}
+=======
+		this.setUnlocalizedName("Tesseract"); //Added
+	}	// You needed to add a name to your block
+		// Watch tutorial 4 and 6
+>>>>>>> 9157bbc4d3e273c559da25d4c2641c67e697f8f5
 
 }
