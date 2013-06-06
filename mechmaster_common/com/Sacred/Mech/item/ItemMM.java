@@ -9,7 +9,7 @@ import net.minecraft.item.Item;
 
 public class ItemMM extends Item{
 	public ItemMM(int id){
-		super(id);
+		super(id-256);
 	}
 	@SideOnly(Side.CLIENT)
 	@Override

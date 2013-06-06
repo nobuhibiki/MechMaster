@@ -42,10 +42,10 @@ public class MechMaster {
 	public void preInit(FMLPreInitializationEvent event){
 		LocalizationHandler.loadLanguages();
 		
+		configurationHandler.init(new File(event.getModConfigurationDirectory().getAbsolutePath() + File.separator + Reference.CHANNEL_NAME + File.separator + Reference.MOD_ID + ".cfg"));
+		
 		ModBlocks.BlocksInit();
 		ModItem.itemInit();
-		
-		configurationHandler.init(new File(event.getModConfigurationDirectory().getAbsolutePath() + File.separator + Reference.CHANNEL_NAME + File.separator + Reference.MOD_ID + ".cfg"));
 	}
 	
 	@Init

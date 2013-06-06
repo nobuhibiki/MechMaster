@@ -3,5 +3,5 @@
 <properties version="1.0">
 	<comment>English (en_US) Localization File</comment>
 	<entry key="tile.Tesseract.name">Tesseract</entry>
-	<entry key="item.TesseractStick.name">Tesseract Stick</entry>
+	<entry key="item.TesseractMitt.name">Tesseract Mitt</entry>
 </properties>
