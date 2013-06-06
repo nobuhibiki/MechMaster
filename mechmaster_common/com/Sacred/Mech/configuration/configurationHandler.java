@@ -22,7 +22,7 @@ public class configurationHandler {
 			config.load();
 			
 			BlockIds.TESSERACT_ID = config.getBlock(Strings.TESSERACT_NAME, BlockIds.TESSERACT_ID_DEFAULT).getInt(BlockIds.TESSERACT_ID_DEFAULT);
-			ItemIds.TESSERACT_MITT_ID = config.getItem(Strings.TESSERACT_MITT_NAME, ItemIds.TESSERACT_MITT_ID_DEFAULT).getInt(ItemIds.TESSERACT_MITT_ID_DEFAULT);
+			ItemIds.LEATHER_MITT_ID = config.getItem(Strings.LEATHER_MITT_NAME, ItemIds.LEATHER_MITT_ID_DEFAULT).getInt(ItemIds.LEATHER_MITT_ID_DEFAULT);
 		}
 		
 		catch(Exception e){

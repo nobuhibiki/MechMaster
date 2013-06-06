@@ -2,10 +2,13 @@ package com.Sacred.Mech;
 
 import java.io.File;
 
+import net.minecraft.creativetab.CreativeTabs;
+
 import com.Sacred.Mech.block.ModBlocks;
 import com.Sacred.Mech.configuration.configurationHandler;
 import com.Sacred.Mech.core.handler.LocalizationHandler;
 import com.Sacred.Mech.core.proxy.CommonProxy;
+import com.Sacred.Mech.creativeTab.TabMM;
 import com.Sacred.Mech.item.ModItem;
 import com.Sacred.Mech.lib.Reference;
 
@@ -38,6 +41,8 @@ public class MechMaster {
 			serverSide = Reference.COMMON_PROXY_LOCATION)
 	public static CommonProxy proxy;
 
+	public static CreativeTabs TabMM = new TabMM(CreativeTabs.getNextID(),Reference.MOD_ID);
+	
 	@PreInit
 	public void preInit(FMLPreInitializationEvent event){
 		LocalizationHandler.loadLanguages();

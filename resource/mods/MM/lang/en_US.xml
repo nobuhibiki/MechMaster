@@ -3,5 +3,6 @@
 <properties version="1.0">
 	<comment>English (en_US) Localization File</comment>
 	<entry key="tile.Tesseract.name">Tesseract</entry>
-	<entry key="item.TesseractMitt.name">Tesseract Mitt</entry>
+	<entry key="item.LeatherMitt.name">Leather Mitt</entry>
+	<entry key="itemGroup.MM">Mech Master</entry>
 </properties>

@@ -1,0 +1,20 @@
+[
+{
+  "modid": "MM",
+  "name": "Mech Master",
+  "description": "Control your mech like a Boss!",
+  "version": "0.0.1",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [
+    "SacredWKnight"
+  ],
+  "credits": "By Sacred, Ton Of Help from MouseTutorial",
+  "logoFile": "",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]
