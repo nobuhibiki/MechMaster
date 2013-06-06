@@ -41,12 +41,19 @@ public class MechMaster {
 	@PreInit
 	public void preInit(FMLPreInitializationEvent event){
 <<<<<<< HEAD
+<<<<<<< HEAD
 		LocalizationHandler.loadLanguages();
 		
 		ModBlocks.BlocksInit();
 		ModItem.itemInit();
 		
 		configurationHandler.init(new File(event.getModConfigurationDirectory().getAbsolutePath() + File.separator + Reference.CHANNEL_NAME + File.separator + Reference.MOD_ID + ".cfg"));
+=======
+		
+		LocalizationHandler.loadLanguages(); // LocalizationHandler needs to run before ModBlocks
+		
+		ModBlocks.BlocksInit(); // Switched the LocilzationHandler and ModBlocks
+>>>>>>> 9157bbc4d3e273c559da25d4c2641c67e697f8f5
 =======
 		
 		LocalizationHandler.loadLanguages(); // LocalizationHandler needs to run before ModBlocks
