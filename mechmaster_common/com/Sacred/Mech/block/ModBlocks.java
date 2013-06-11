@@ -16,7 +16,7 @@ public class ModBlocks {
 	
 	public static void BlocksInit(){
 		Tesseract = new Tesseract(BlockIds.TESSERACT_ID);
-		Tesseract = new TesseractOre(BlockIds.TESSERACT_ORE_ID);
+		TesseractOre = new TesseractOre(BlockIds.TESSERACT_ORE_ID);
 		
 		
 		GameRegistry.registerBlock(Tesseract, Strings.TESSERACT_NAME);
