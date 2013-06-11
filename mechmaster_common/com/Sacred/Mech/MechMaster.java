@@ -11,6 +11,7 @@ import com.Sacred.Mech.core.proxy.CommonProxy;
 import com.Sacred.Mech.creativeTab.TabMM;
 import com.Sacred.Mech.item.ModItem;
 import com.Sacred.Mech.lib.Reference;
+import com.Sacred.Mech.world.generator.WorldGeneratorMM;
 
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.Init;
@@ -21,6 +22,7 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.network.NetworkMod;
+import cpw.mods.fml.common.registry.GameRegistry;
 
 @Mod( 
 		modid = Reference.MOD_ID, 
@@ -35,6 +37,8 @@ import cpw.mods.fml.common.network.NetworkMod;
 		)
 
 public class MechMaster {
+	
+	WorldGeneratorMM worldGenerator = new WorldGeneratorMM
 	
 	@SidedProxy(
 			clientSide = Reference.CLIENT_PROXY_LOCATION,
@@ -51,6 +55,8 @@ public class MechMaster {
 		
 		ModBlocks.BlocksInit();
 		ModItem.itemInit();
+		
+		GameRegistry.registerWorldGenerator(worldGenerator);
 	}
 	
 	@Init
