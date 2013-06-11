@@ -5,11 +5,11 @@ import com.Sacred.Mech.lib.Strings;
 
 import net.minecraft.block.material.Material;
 
-public class BlockTesseractOre extends BlockMM {
-	public BlockTesseractOre(int id) {
+public class TesseractOre extends BlockMM {
+	public TesseractOre(int id) {
 		super(id, Material.rock);
 		this.setCreativeTab(MechMaster.TabMM);
-		this.setUnlocalizedName(Strings.BLOCK_TESSERACT_ORE_NAME);
+		this.setUnlocalizedName(Strings.TESSERACT_ORE_NAME);
 	}
 
 }

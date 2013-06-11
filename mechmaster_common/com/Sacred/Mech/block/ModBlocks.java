@@ -12,14 +12,16 @@ import cpw.mods.fml.common.registry.GameRegistry;
 public class ModBlocks {
 	
 	public static Block Tesseract;
-	public static Block BlockTesseractOre;
+	public static Block TesseractOre;
 	
 	public static void BlocksInit(){
 		Tesseract = new Tesseract(BlockIds.TESSERACT_ID);
-		BlockTesseractOre = new BlockTesseractOre(BlockIds.BLOCK_TESSERACT_ORE_ID);
+		Tesseract = new TesseractOre(BlockIds.TESSERACT_ORE_ID);
+		
 		
 		GameRegistry.registerBlock(Tesseract, Strings.TESSERACT_NAME);
-		GameRegistry.registerBlock(BlockTesseractOre, Strings.BLOCK_TESSERACT_ORE_NAME);
+		GameRegistry.registerBlock(TesseractOre, Strings.TESSERACT_ORE_NAME);
+		
 		
 		recipesInit();
 		
