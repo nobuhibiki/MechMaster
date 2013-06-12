@@ -4,6 +4,7 @@ import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
+import com.Sacred.Mech.item.ModItem;
 import com.Sacred.Mech.lib.BlockIds;
 import com.Sacred.Mech.lib.Strings;
 
@@ -28,7 +29,7 @@ public class ModBlocks {
 	}
 	public static void recipesInit(){
 		GameRegistry.addRecipe(new ItemStack(ModBlocks.Tesseract,1,0), new Object[]{
-			"IDI","IEI","IDI",'I',Item.ingotIron, 'D',Item.diamond, 'E',Item.emerald 
+			"IDI","ITI","IDI",'I',Item.ingotIron, 'D',Item.diamond, 'T',ModItem.TesseractShard 
 		});
 	}
 }

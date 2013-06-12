@@ -7,6 +7,7 @@ import net.minecraft.creativetab.CreativeTabs;
 import com.Sacred.Mech.block.ModBlocks;
 import com.Sacred.Mech.configuration.configurationHandler;
 import com.Sacred.Mech.core.handler.LocalizationHandler;
+import com.Sacred.Mech.core.handler.MMFuelHandler;
 import com.Sacred.Mech.core.proxy.CommonProxy;
 import com.Sacred.Mech.creativeTab.TabMM;
 import com.Sacred.Mech.item.ModItem;
@@ -38,8 +39,8 @@ import cpw.mods.fml.common.registry.GameRegistry;
 
 public class MechMaster {
 	
-	WorldGeneratorMM worldGenerator = new WorldGeneratorMM
-	
+	WorldGeneratorMM worldGenerator = new WorldGeneratorMM();
+	MMFuelHandler FuelHandler = new MMFuelHandler();
 	@SidedProxy(
 			clientSide = Reference.CLIENT_PROXY_LOCATION,
 			serverSide = Reference.COMMON_PROXY_LOCATION)
@@ -53,10 +54,12 @@ public class MechMaster {
 		
 		configurationHandler.init(new File(event.getModConfigurationDirectory().getAbsolutePath() + File.separator + Reference.CHANNEL_NAME + File.separator + Reference.MOD_ID + ".cfg"));
 		
-		ModBlocks.BlocksInit();
 		ModItem.itemInit();
+		ModBlocks.BlocksInit();
+		
 		
 		GameRegistry.registerWorldGenerator(worldGenerator);
+		GameRegistry.registerFuelHandler(FuelHandler);
 	}
 	
 	@Init

@@ -30,7 +30,7 @@ public class WorldGeneratorMM implements IWorldGenerator {
 		
 	}
 	public void generateOverworld(World world, Random random, int chunkX, int chunkZ){
-		this.addOres(ModBlocks.TesseractOre, world, random, chunkX, chunkZ, 16, 16, 18, 20, 0, 100);
+		this.addOres(ModBlocks.TesseractOre, world, random, chunkX, chunkZ, 16, 16, 10, 20, 0, 100);
 	}
 	
 	public void addOres(Block block, World world, Random random, int chunkX, int chunkZ, int maxX, int maxZ, int vainSize, int spawnChance, int yMin, int yMax) {

@@ -5,5 +5,8 @@
 	<entry key="tile.Tesseract.name">Tesseract</entry>
 	<entry key="tile.TesseractOre.name">Tesseract Ore</entry>
 	<entry key="item.LeatherMitt.name">Leather Mitt</entry>
+	<entry key="item.TesseractMitt.name">Tesseract Mitt</entry>
+	<entry key="item.TesseractShard.name">Tesseract Shard</entry>
+	<entry key="item.TesseractMK1.name">Tesseract MK1</entry>
 	<entry key="itemGroup.MM">Mech Master</entry>
 </properties>
