@@ -44,6 +44,8 @@ public class MechMaster {
 	@SidedProxy(
 			clientSide = Reference.CLIENT_PROXY_LOCATION,
 			serverSide = Reference.COMMON_PROXY_LOCATION)
+
+	
 	public static CommonProxy proxy;
 
 	public static CreativeTabs TabMM = new TabMM(CreativeTabs.getNextID(),Reference.MOD_ID);
@@ -56,7 +58,6 @@ public class MechMaster {
 		
 		ModItem.itemInit();
 		ModBlocks.BlocksInit();
-		
 		
 		GameRegistry.registerWorldGenerator(worldGenerator);
 		GameRegistry.registerFuelHandler(FuelHandler);

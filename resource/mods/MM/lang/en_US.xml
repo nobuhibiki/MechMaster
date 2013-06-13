@@ -4,6 +4,8 @@
 	<comment>English (en_US) Localization File</comment>
 	<entry key="tile.Tesseract.name">Tesseract</entry>
 	<entry key="tile.TesseractOre.name">Tesseract Ore</entry>
+	<entry key="tile.NetherTesseractOre.name">Nether Tesseract Ore</entry>
+	<entry key="tile.EndTesseractOre.name">End Tesseract Ore</entry>
 	<entry key="item.LeatherMitt.name">Leather Mitt</entry>
 	<entry key="item.TesseractMitt.name">Tesseract Mitt</entry>
 	<entry key="item.TesseractShard.name">Tesseract Shard</entry>

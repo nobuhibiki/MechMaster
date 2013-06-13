@@ -26,7 +26,7 @@ public class ModItem {
 		//Items
 		LeatherMitt = new ItemLeatherMitt(ItemIds.LEATHER_MITT_ID, LeatherMittMaterial);
 		TesseractMitt = new ItemTesseractMitt(ItemIds.TESSERACT_MITT_ID, TesseractMittMaterial);
-		TesseractShard = new ItenTesseractShard(ItemIds.TESSERACT_SHARD_ID);
+		TesseractShard = new ItemTesseractShard(ItemIds.TESSERACT_SHARD_ID);
 		TesseractMK1 = new ItemTesseractMK1(ItemIds.TESSERACT_MK1_ID);
 		
 		recipesInit();

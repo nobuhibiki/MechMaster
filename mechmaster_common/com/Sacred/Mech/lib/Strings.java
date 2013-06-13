@@ -5,6 +5,8 @@ public class Strings {
 	//Blocks
 	public static final String TESSERACT_NAME = "Tesseract";
 	public static final String TESSERACT_ORE_NAME = "TesseractOre";
+	public static final String NETHER_TESSERACT_ORE_NAME = "NetherTesseractOre";
+	public static final String END_TESSERACT_ORE_NAME = "EndTesseractOre";
 	
 	//Item
 	public static final String LEATHER_MITT_NAME = "LeatherMitt";

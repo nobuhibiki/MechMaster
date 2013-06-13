@@ -14,15 +14,19 @@ public class ModBlocks {
 	
 	public static Block Tesseract;
 	public static Block TesseractOre;
+	public static Block NetherTesseractOre;
+	public static Block EndTesseractOre;
 	
 	public static void BlocksInit(){
 		Tesseract = new Tesseract(BlockIds.TESSERACT_ID);
 		TesseractOre = new TesseractOre(BlockIds.TESSERACT_ORE_ID);
-		
+		NetherTesseractOre = new NetherTesseractOre(BlockIds.NETHER_TESSERACT_ORE_ID);
+		EndTesseractOre = new EndTesseractOre(BlockIds.END_TESSERACT_ORE_ID);
 		
 		GameRegistry.registerBlock(Tesseract, Strings.TESSERACT_NAME);
 		GameRegistry.registerBlock(TesseractOre, Strings.TESSERACT_ORE_NAME);
-		
+		GameRegistry.registerBlock(NetherTesseractOre, Strings.NETHER_TESSERACT_ORE_NAME);
+		GameRegistry.registerBlock(EndTesseractOre, Strings.END_TESSERACT_ORE_NAME);
 		
 		recipesInit();
 		

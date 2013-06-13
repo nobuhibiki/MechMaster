@@ -4,9 +4,9 @@ import com.Sacred.Mech.MechMaster;
 import com.Sacred.Mech.lib.Strings;
 
 
-public class ItenTesseractShard extends ItemMM {
+public class ItemTesseractShard extends ItemMM {
 
-	public ItenTesseractShard(int id) {
+	public ItemTesseractShard(int id) {
 		super(id);
 		this.setCreativeTab(MechMaster.TabMM);
 		this.setUnlocalizedName(Strings.TESSERACT_SHARD_NAME);
